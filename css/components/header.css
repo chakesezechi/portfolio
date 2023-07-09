@@ -4,6 +4,8 @@
     align-content: center;
     padding-top: 2rem;
     padding-bottom: 2rem;
+    position: relative;
+    z-index: 9999;
 }
 
 .header__menu {
@@ -61,6 +63,13 @@
         width: var(--size-base);
         height: var(--size-base);
     }
+
+    .header__moon {
+        display: none;
+        color: var(--color-slate600);
+        width: var(--size-base);
+        height: var(--size-base);
+    }
     
     .header__resume {
         font-size: var(--size-xs);
@@ -80,6 +89,11 @@
     }
     
     .header__sun {
+        width: var(--size-xl);
+        height: var(--size-xl);
+    }
+
+    .header__moon {
         width: var(--size-xl);
         height: var(--size-xl);
     }
